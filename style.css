@@ -1,28 +1,74 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #121212;
-    color: #f5f5f5;
+    font-family: 'Play', 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at center, #1c1c1c 0%, #000000 100%);
+    color: #fff;
     margin: 0;
     padding: 0;
   }
   
-  h1 {
+  header h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
-    color: #ffc107;
-  }
-  
-  h4 {
-    font-size: 1.25rem;
-    font-weight: 300;
-  }
-  
-  button {
-    font-size: 1.1rem;
-    margin: 10px;
-    padding: 10px 20px;
+    color: #ffd700;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
   }
   
   .container {
-    max-width: 600px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border: 3px solid #ffd700;
+    border-radius: 20px;
+    background-color: #111;
+    box-shadow: 0 0 20px #ffd700;
   }
+  
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #00ffcc;
+  }
+  
+  h3 {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc;
+  }
+  
+  .busted {
+    color: #ff4444;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff4444;
+  }
+  
+  .blackjack {
+    color: #00ff00;
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ff00;
+  }
+  
+  .total {
+    display: block;
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-top: 0.25rem;
+  }
+  
+  button {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+    color: #fff;
+    box-shadow: 0 0 10px #ff4500;
+  }
+  
