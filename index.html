@@ -14,7 +14,9 @@
     <div class="mb-3">
       <h4>Your Hand: {{ player }}</h4>
       <span class="total">Total: {{ total }}</span>
-      {% if total > 21 %}
+      {% if total == 21 and player|length == 2 %}
+        <div class="blackjack">Blackjack! You win!</div>
+      {% elif total > 21 %}
         <div class="busted">You Busted!</div>
       {% endif %}
     </div>
